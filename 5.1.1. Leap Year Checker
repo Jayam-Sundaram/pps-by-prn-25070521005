@@ -1,0 +1,9 @@
+# Read input year
+year = int(input())
+
+# Check leap year conditions
+if (year % 4 == 0):
+    print("Leap year")
+else:
+    print("Not a leap year")
+
