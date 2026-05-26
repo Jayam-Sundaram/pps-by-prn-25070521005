@@ -1,0 +1,7 @@
+marks= float(input(""))
+if(marks>=40):
+	print("Pass")
+elif(marks<40):
+	print("Fail")
+else:
+	pass
