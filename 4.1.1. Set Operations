@@ -1,0 +1,16 @@
+# Read Set A
+set_a = set(map(int, input("Set A: ").split()))
+
+# Read Set B
+set_b = set(map(int, input("Set B: ").split()))
+
+# Perform operations
+union_set = set_a.union(set_b)
+intersection_set = set_a.intersection(set_b)
+difference_set = set_a.difference(set_b)
+
+# Print results
+print(f"Union: {union_set}")
+print(f"Intersection: {intersection_set}")
+print(f"Difference: {difference_set}")
+
